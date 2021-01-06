@@ -4,4 +4,4 @@ from django.db import models
 
 
 class Calibration(models.Model):
-    description = models.TextField(max_length=500)
+    description = models.TextField(max_length=250)
