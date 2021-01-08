@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-left">
+        <h1 class="mt-5">Logout</h1>
+          <!-- Logout -->
+          <p class="lead">You have been successfully logged out.</p>
+      </div>
+
+        <div class="col-lg-6 align-self-baseline">
+            <button onclick="location.href = '/accounts/login';" class="btn btn-dark btn-xl js-scroll-trigger">
+                    Login again
+            </button>
+        </div>
+
+    </div>
+  </div>
+{% endblock %}
